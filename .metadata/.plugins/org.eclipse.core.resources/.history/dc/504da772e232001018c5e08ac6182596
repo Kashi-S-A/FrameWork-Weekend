@@ -1,0 +1,5 @@
+package com.ty.Crud.entity;
+
+public class Employee {
+
+}

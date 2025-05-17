@@ -1,0 +1,13 @@
+package com.ty.Crud.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ty.Crud.entity.Employee;
+
+public interface EmployeeRepo extends JpaRepository<Employee, Integer>{
+
+	//Custom queries 
+	
+	
+	//Custom methods
+}

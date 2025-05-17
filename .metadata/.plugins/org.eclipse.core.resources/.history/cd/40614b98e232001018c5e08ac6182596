@@ -1,0 +1,23 @@
+package com.ty.Crud.entity;
+
+import java.time.LocalDateTime;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="emp_info")
+public class Employee {
+
+	private Integer eid;
+	
+	private String name;
+	
+	private String email;
+	
+	private Double salary;
+	
+	private LocalDateTime createdDate;
+	
+	private LocalDateTime updatedDate;
+}

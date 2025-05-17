@@ -1,0 +1,17 @@
+package com.ty.Crud.repo;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.ty.Crud.entity.Employee;
+
+public interface EmployeeRepo extends JpaRepository<Employee, Integer>{
+
+	//Custom queries 
+	@Query("")
+	public List<Employee> getBySalary(Double salary);
+	
+	//Custom methods
+}

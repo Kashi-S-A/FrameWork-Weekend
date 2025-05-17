@@ -1,0 +1,5 @@
+package com.ty.Crud.repo;
+
+public interface EmployeeRepo {
+
+}
